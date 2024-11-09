@@ -1,4 +1,4 @@
-local Bezier = require(script.Parent.Bezier)
+local Bezier = loadstring(game:HttpGet("https://raw.githubusercontent.com/skibiditoiletfan2007/ScriptPackages/main/BoatTweenDependencies/Bezier.lua"))()
 
 local function RevBack(T)
 	T = 1 - T
