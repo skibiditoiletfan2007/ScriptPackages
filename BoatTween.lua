@@ -71,8 +71,8 @@
 --]==]
 
 local RunService = game:GetService("RunService")
-local RawTweenFunctions = require(script.TweenFunctions)
-local TypeLerpers = require(script.Lerps)
+local RawTweenFunctions = loadstring(game:HttpGet("https://raw.githubusercontent.com/skibiditoiletfan2007/ScriptPackages/main/BoatTweenDependencies/TweenFunctions.lua"))()
+local TypeLerpers = loadstring(game:HttpGet("https://raw.githubusercontent.com/skibiditoiletfan2007/ScriptPackages/main/BoatTweenDependencies/Lerps.lua"))()
 local Heartbeat = RunService.Heartbeat
 
 local BoatTween = {}
