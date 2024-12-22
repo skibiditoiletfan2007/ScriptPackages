@@ -1,5 +1,3 @@
--- Pre KJ Update
-
 local l_RunService_0 = game:GetService("RunService");
 local l_TweenService_0 = game:GetService("TweenService");
 local v3 = {};
